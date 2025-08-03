@@ -1,0 +1,54 @@
+{
+  "name": "calculator-lib",
+  "version": "0.0.1",
+  "description": "A TypeScript calculator library built with Vite",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx src/playground.ts",
+    "dev:watch": "tsx watch src/playground.ts",
+    "dev:playground": "vite build --mode playground && node playground-dist/playground.js",
+    "dev:build-watch": "vite build --mode playground --watch",
+    "serve": "vite serve",
+    "build": "tsc && vite build",
+    "build:watch": "vite build --watch",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "test:watch": "vitest --watch",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "calculator",
+    "math",
+    "typescript",
+    "library"
+  ],
+  "author": "mrborek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/calculator-lib.git"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/prettier": "^2.7.3",
+    "eslint": "^9.32.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "dependencies": {
+    "vitest": "^3.2.4"
+  }
+}
