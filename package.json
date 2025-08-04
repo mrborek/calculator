@@ -38,7 +38,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/calculator-lib.git"
+    "url": "https://github.com/mrborek/calculator.git"
   },
   "devDependencies": {
     "@types/node": "^24.1.0",
