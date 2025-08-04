@@ -5,13 +5,16 @@ A comprehensive TypeScript calculator library built with Vite, featuring basic a
 ## Features
 
 - ✅ Basic arithmetic operations (add, subtract, multiply, divide)
-- ✅ Advanced operations (power, square root, factorial, percentage)
-- ✅ Expression evaluation
 - ✅ Configurable precision
 - ✅ Flexible error handling
 - ✅ Full TypeScript support
-- ✅ Comprehensive test coverage
 - ✅ Zero dependencies
+
+
+## TODO
+- ✅ Advanced operations (power, square root, factorial, percentage)
+- ✅ Expression evaluation
+- ✅ Comprehensive test coverage
 
 ## Installation
 
@@ -185,10 +188,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Changelog
 
-### v1.0.0
+### v0.0.1
 - Initial release
 - Basic arithmetic operations
-- Advanced mathematical functions
-- Expression evaluation
 - Configurable precision and error handling
 - Full TypeScript support
