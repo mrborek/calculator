@@ -19,7 +19,7 @@ A comprehensive TypeScript calculator library built with Vite, featuring basic a
 ## Installation
 
 ```bash
-npm install calculator-lib
+npm install @mrborek/calculator-lib
 ```
 
 ## Usage
