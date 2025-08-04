@@ -133,7 +133,7 @@ try {
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/calculator-lib.git
+git clone https://github.com/mrborek/calculator.git
 cd calculator-lib
 
 # Install dependencies
