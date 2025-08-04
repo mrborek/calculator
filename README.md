@@ -83,7 +83,7 @@ new Calculator(options?: CalculatorOptions)
 ```
 
 **Options:**
-- `precision?: number` - Number of decimal places for results (default: 10)
+- `precision?: number` - Number of decimal places for results (default: 2)
 - `throwOnError?: boolean` - Whether to throw errors or return NaN (default: true)
 
 #### Methods
